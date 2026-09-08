@@ -1,0 +1,34 @@
+name: 버그 신고
+description: 재현 가능한 문제를 보고합니다
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 증상
+      description: 무엇이 잘못되었는지
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 재현 절차
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대 동작
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: 환경
+      description: "OS, 실행 방식(Dev Container / Docker / 로컬), `uv --version`"
+    validations:
+      required: true
