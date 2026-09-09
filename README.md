@@ -1,4 +1,4 @@
-# 세팅1
+# 2팀 협업 프로젝트 세팅 
 
 [![CI](https://github.com/rinaking/setup-1/actions/workflows/ci.yml/badge.svg)](https://github.com/rinaking/setup-1/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.13-blue)
