@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # 1) uv 바이너리 확보
-FROM ghcr.io/astral-sh/uv:0.12.5 AS uv
+FROM ghcr.io/astral-sh/uv:0.12.17 AS uv
 
 # 2) 의존성 설치 — .venv 구성 (개발 도구 제외)
 FROM python:3.13-slim AS builder
